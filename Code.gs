@@ -24,6 +24,7 @@ const onFormSubmit = ({ response } = {}) => {
     switch (itemResponses[i].getItem().getTitle()) {
       case "name":
         var email = itemResponses[i].getResponse();  // returns a string
+        Logger.log(email);
         break;
       
     }
